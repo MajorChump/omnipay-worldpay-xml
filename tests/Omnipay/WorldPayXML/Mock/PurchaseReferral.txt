@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Connection: close
+Server: VPS-3.033.00
+Date: Sat, 23 Feb 2013 05:17:32 GMT
+Content-type: text/xml
+Content-length: 758
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paymentService PUBLIC "-//WorldPay//DTD WorldPay PaymentService v1//EN"
+                                "http://dtd.worldpay.com/paymentService_v1.dtd">
+<paymentService version="1.4" merchantCode="MYMERCHANT"><reply><orderStatus orderCode='T0211010'><requestInfo><request3DSecure><paRequest>eJxVUm1vgjAQ/ivEzxu1UBDNWYMj2UzGZjb3AxpolERebMtw+/W7Koi79MPdc69P72B1Lo/Ot1S6qKvlhLrTibPisDsoKZNPmbVKckil1mIvnSLHCMbmHr6IhUE04bCNP+SJQ1+BYwHXAzKYmKqyg6gMB5Gd1ps3TkcB0mNQSrVJ7l1WHse4qx8aoXVXq5xTz2dBOIuA3CCoRCn5rq6P2giDvZ1XkwO5oJDVbWXUD4+8EMhgQKuO/GBMsyCk6zrXjLluVpdArB/IyGDbWk1jvXOR8/Q3nqbJ12+6i710H9/LEoiNgFwYyb0pDag3ZQ6dLShbMAbkgoMo7SD8eb11qPfgI94j0NhG8dWwVJHmHQK4FCWrbKAzWCDPTV1JjMAF3HTIpc74u8qlchJUVdFYhjiExYGMpJ5e7JIygz8dzoJ5yOZYn/kRC3y7qYvD9ijw72hIr02sAcSmkv4SSH8tqP27oj+BIsbE</paRequest><issuerURL><![CDATA[https://secure-test.streamline-esolutions.com/jsp/test/shopper/ThreeDResponseSimulator.jsp]]></issuerURL></request3DSecure></requestInfo><echoData>111068086332802</echoData></orderStatus></reply></paymentService>
